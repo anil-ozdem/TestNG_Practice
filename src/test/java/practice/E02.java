@@ -1,4 +1,4 @@
-package exercise;
+package practice;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 import pages.TestotomasyonuPage;
 import utilities.ConfigReader;
 import utilities.Driver;
-import utilities.ReusableMethods;
 
 import java.util.Locale;
 

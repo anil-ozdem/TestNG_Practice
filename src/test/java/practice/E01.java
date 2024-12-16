@@ -1,4 +1,4 @@
-package exercise;
+package practice;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
