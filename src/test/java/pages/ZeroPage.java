@@ -69,4 +69,46 @@ public class ZeroPage {
     @FindBy(xpath = "//*[@id='logout_link']")
     public WebElement logout;
 
+    @FindBy(id = "homeMenu")
+    public WebElement homeMenu;
+
+    @FindBy(id = "feedback")
+    public WebElement feedbackMenu;
+
+    @FindBy(xpath = "//input[@id='name']")
+    public WebElement feedbackNameBox;
+
+    @FindBy(xpath = "//input[@id='email']")
+    public WebElement feedbackEmailBox;
+
+    @FindBy(xpath = "//input[@id='subject']")
+    public WebElement feedbackSubjectBox;
+
+    @FindBy(xpath = "//*[@id='comment']")
+    public WebElement feedbackMessageBox;
+
+    @FindBy(xpath = "//*[@name='submit']")
+    public WebElement feedbackSendMessageButton;
+
+    @FindBy(xpath = "//*[@class='brand']")
+    public WebElement zeroPageAnaSayfayaDonButonu;
+
+    @FindBy(id = "account_activity_link")
+    public WebElement accountActivityLink;
+
+    @FindBy(xpath = "//li[@class='ui-state-default ui-corner-top']")
+    public WebElement findTransactionsButonu;
+
+    @FindBy(xpath = "//*[@id='aa_fromDate']")
+    public WebElement dateBox;
+
+    @FindBy(xpath = "//*[@id='aa_toDate']")
+    public WebElement toDateBox;
+
+    @FindBy(xpath = "//*[@type='submit']")
+    public WebElement findButton;
+
+    @FindBy(xpath = "//*[@*='ui-icon ui-icon-circle-triangle-w']")
+    public WebElement prevButton;
+
 }
