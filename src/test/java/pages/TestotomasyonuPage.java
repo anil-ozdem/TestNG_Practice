@@ -6,6 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.List;
+
 public class TestotomasyonuPage {
 
     /*
@@ -62,6 +64,12 @@ public class TestotomasyonuPage {
 
     @FindBy(xpath = "(//span[@class='menu-icon-text'])[3]")
     public WebElement sepetLinki;
+
+    @FindBy(xpath = "//*[@class='product-box my-2  py-1']")
+    public List<WebElement> aramaSonucundaBulunanUrunlerList;
+
+    @FindBy(xpath = "//*[@class='product-title text-center']")
+    public WebElement sepettekiUrunIsmi;
 
 
 
